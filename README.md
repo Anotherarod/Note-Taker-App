@@ -5,7 +5,7 @@ The Note Taker is an app that uses an Express backend to save, retrieve, and del
 ![](Images/NotetakerHomepage.png)
 
 
-Once home page, once the user clicks "Get Started" the app navigates to the notes page.
+On the home page, once the user clicks "Get Started" the app navigates to the notes page.
 
 On this page you can create new notes and delete existing ones.
 
