@@ -66,5 +66,18 @@ app.delete("/api/notes/:id", function(req, res) {
             for (let i=0; i<notes.length; i++) {
                 notes[i].id = i+1;
             }
+            fs.writeFile("db.json", JSON.stringify(notes, null, 2), function(err) {
+                if (err) throw err;
+            });
+        } else {
+            res.json(false);
+        }
+        
+
+    });
+    
+});
+
+
 
         
